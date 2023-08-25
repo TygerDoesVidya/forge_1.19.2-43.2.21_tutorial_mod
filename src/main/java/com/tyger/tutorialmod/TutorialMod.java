@@ -1,6 +1,8 @@
 package com.tyger.tutorialmod;
 
 import com.mojang.logging.LogUtils;
+import com.tyger.tutorialmod.block.ModBlocks;
+import com.tyger.tutorialmod.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,6 +22,9 @@ public class TutorialMod
     public TutorialMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
