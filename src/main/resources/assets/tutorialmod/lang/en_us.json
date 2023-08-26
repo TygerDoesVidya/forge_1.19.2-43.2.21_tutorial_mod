@@ -1,10 +1,12 @@
 {
   "item.tutorialmod.amongussium": "Amongussium",
   "item.tutorialmod.raw_amongussium": "Raw Amongussium",
+  "item.tutorialmod.eight_ball": "Eight Ball",
 
-  "block.tuorialmod.amongussium_block": "Block of Amongussium",
-  "block.tuorialmod.amongussium_ore": "Amongussium ore",
-  "block.tuorialmod.deepslate_amongussium_ore": "Deepslate Amongussium Ore",
+  "block.tutorialmod.amongussium_block": "Block of Amongussium",
+  "block.tutorialmod.amongussium_ore": "Amongussium ore",
+  "block.tutorialmod.deepslate_amongussium_ore": "Deepslate Amongussium Ore",
+  "block.tutorialmod.jumpy_block": "Jumpy Block",
 
 
   "itemGroup.tutorialtab": "Amongussium Tutorial Tab"

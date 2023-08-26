@@ -1,6 +1,7 @@
 package com.tyger.tutorialmod.block;
 
 import com.tyger.tutorialmod.TutorialMod;
+import com.tyger.tutorialmod.block.custom.JumpyBlock;
 import com.tyger.tutorialmod.item.ModCreativeModTab;
 import com.tyger.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
@@ -26,6 +27,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> AMONGUSSIUM_BLOCK = registerBlock("amongussium_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> JUMPY_BLOCK = registerBlock("jumpy_block",
+            () -> new JumpyBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModTab.TUTORIAL_TAB);
+
     public static final RegistryObject<Block> AMONGUSSIUM_ORE = registerBlock("amongussium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3, 7)), ModCreativeModTab.TUTORIAL_TAB);
